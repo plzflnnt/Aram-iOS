@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3546801BC3696A00CC97C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A35467F1BC3696A00CC97C2 /* AppDelegate.swift */; };
+		3A3546821BC3696A00CC97C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3546811BC3696A00CC97C2 /* ViewController.swift */; };
+		3A3546851BC3696A00CC97C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3546831BC3696A00CC97C2 /* Main.storyboard */; };
+		3A3546881BC3696A00CC97C2 /* Aram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A3546861BC3696A00CC97C2 /* Aram.xcdatamodeld */; };
+		3A35468A1BC3696A00CC97C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3546891BC3696A00CC97C2 /* Assets.xcassets */; };
+		3A35468D1BC3696A00CC97C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A35468B1BC3696A00CC97C2 /* LaunchScreen.storyboard */; };
+		3A3546981BC3696A00CC97C2 /* AramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3546971BC3696A00CC97C2 /* AramTests.swift */; };
+		3A3546A31BC3696B00CC97C2 /* AramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3546A21BC3696B00CC97C2 /* AramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A3546941BC3696A00CC97C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3546741BC3696A00CC97C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A35467B1BC3696A00CC97C2;
+			remoteInfo = Aram;
+		};
+		3A35469F1BC3696B00CC97C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3546741BC3696A00CC97C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A35467B1BC3696A00CC97C2;
+			remoteInfo = Aram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A35467C1BC3696A00CC97C2 /* Aram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A35467F1BC3696A00CC97C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A3546811BC3696A00CC97C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A3546841BC3696A00CC97C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A3546871BC3696A00CC97C2 /* Aram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aram.xcdatamodel; sourceTree = "<group>"; };
+		3A3546891BC3696A00CC97C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A35468C1BC3696A00CC97C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A35468E1BC3696A00CC97C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3546931BC3696A00CC97C2 /* AramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3546971BC3696A00CC97C2 /* AramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AramTests.swift; sourceTree = "<group>"; };
+		3A3546991BC3696A00CC97C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A35469E1BC3696B00CC97C2 /* AramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3546A21BC3696B00CC97C2 /* AramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AramUITests.swift; sourceTree = "<group>"; };
+		3A3546A41BC3696B00CC97C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A3546791BC3696A00CC97C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3546901BC3696A00CC97C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A35469B1BC3696B00CC97C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3546731BC3696A00CC97C2 = {
+			isa = PBXGroup;
+			children = (
+				3A35467E1BC3696A00CC97C2 /* Aram */,
+				3A3546961BC3696A00CC97C2 /* AramTests */,
+				3A3546A11BC3696B00CC97C2 /* AramUITests */,
+				3A35467D1BC3696A00CC97C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A35467D1BC3696A00CC97C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A35467C1BC3696A00CC97C2 /* Aram.app */,
+				3A3546931BC3696A00CC97C2 /* AramTests.xctest */,
+				3A35469E1BC3696B00CC97C2 /* AramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A35467E1BC3696A00CC97C2 /* Aram */ = {
+			isa = PBXGroup;
+			children = (
+				3A35467F1BC3696A00CC97C2 /* AppDelegate.swift */,
+				3A3546811BC3696A00CC97C2 /* ViewController.swift */,
+				3A3546831BC3696A00CC97C2 /* Main.storyboard */,
+				3A3546891BC3696A00CC97C2 /* Assets.xcassets */,
+				3A35468B1BC3696A00CC97C2 /* LaunchScreen.storyboard */,
+				3A35468E1BC3696A00CC97C2 /* Info.plist */,
+				3A3546861BC3696A00CC97C2 /* Aram.xcdatamodeld */,
+			);
+			path = Aram;
+			sourceTree = "<group>";
+		};
+		3A3546961BC3696A00CC97C2 /* AramTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3546971BC3696A00CC97C2 /* AramTests.swift */,
+				3A3546991BC3696A00CC97C2 /* Info.plist */,
+			);
+			path = AramTests;
+			sourceTree = "<group>";
+		};
+		3A3546A11BC3696B00CC97C2 /* AramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3546A21BC3696B00CC97C2 /* AramUITests.swift */,
+				3A3546A41BC3696B00CC97C2 /* Info.plist */,
+			);
+			path = AramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A35467B1BC3696A00CC97C2 /* Aram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3546A71BC3696B00CC97C2 /* Build configuration list for PBXNativeTarget "Aram" */;
+			buildPhases = (
+				3A3546781BC3696A00CC97C2 /* Sources */,
+				3A3546791BC3696A00CC97C2 /* Frameworks */,
+				3A35467A1BC3696A00CC97C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aram;
+			productName = Aram;
+			productReference = 3A35467C1BC3696A00CC97C2 /* Aram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A3546921BC3696A00CC97C2 /* AramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3546AA1BC3696B00CC97C2 /* Build configuration list for PBXNativeTarget "AramTests" */;
+			buildPhases = (
+				3A35468F1BC3696A00CC97C2 /* Sources */,
+				3A3546901BC3696A00CC97C2 /* Frameworks */,
+				3A3546911BC3696A00CC97C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3546951BC3696A00CC97C2 /* PBXTargetDependency */,
+			);
+			name = AramTests;
+			productName = AramTests;
+			productReference = 3A3546931BC3696A00CC97C2 /* AramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A35469D1BC3696B00CC97C2 /* AramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3546AD1BC3696B00CC97C2 /* Build configuration list for PBXNativeTarget "AramUITests" */;
+			buildPhases = (
+				3A35469A1BC3696B00CC97C2 /* Sources */,
+				3A35469B1BC3696B00CC97C2 /* Frameworks */,
+				3A35469C1BC3696B00CC97C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3546A01BC3696B00CC97C2 /* PBXTargetDependency */,
+			);
+			name = AramUITests;
+			productName = AramUITests;
+			productReference = 3A35469E1BC3696B00CC97C2 /* AramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3546741BC3696A00CC97C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Zafalon;
+				TargetAttributes = {
+					3A35467B1BC3696A00CC97C2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3A3546921BC3696A00CC97C2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3A35467B1BC3696A00CC97C2;
+					};
+					3A35469D1BC3696B00CC97C2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3A35467B1BC3696A00CC97C2;
+					};
+				};
+			};
+			buildConfigurationList = 3A3546771BC3696A00CC97C2 /* Build configuration list for PBXProject "Aram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A3546731BC3696A00CC97C2;
+			productRefGroup = 3A35467D1BC3696A00CC97C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A35467B1BC3696A00CC97C2 /* Aram */,
+				3A3546921BC3696A00CC97C2 /* AramTests */,
+				3A35469D1BC3696B00CC97C2 /* AramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A35467A1BC3696A00CC97C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A35468D1BC3696A00CC97C2 /* LaunchScreen.storyboard in Resources */,
+				3A35468A1BC3696A00CC97C2 /* Assets.xcassets in Resources */,
+				3A3546851BC3696A00CC97C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3546911BC3696A00CC97C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A35469C1BC3696B00CC97C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A3546781BC3696A00CC97C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3546881BC3696A00CC97C2 /* Aram.xcdatamodeld in Sources */,
+				3A3546821BC3696A00CC97C2 /* ViewController.swift in Sources */,
+				3A3546801BC3696A00CC97C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A35468F1BC3696A00CC97C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3546981BC3696A00CC97C2 /* AramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A35469A1BC3696B00CC97C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3546A31BC3696B00CC97C2 /* AramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3546951BC3696A00CC97C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A35467B1BC3696A00CC97C2 /* Aram */;
+			targetProxy = 3A3546941BC3696A00CC97C2 /* PBXContainerItemProxy */;
+		};
+		3A3546A01BC3696B00CC97C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A35467B1BC3696A00CC97C2 /* Aram */;
+			targetProxy = 3A35469F1BC3696B00CC97C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A3546831BC3696A00CC97C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A3546841BC3696A00CC97C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A35468B1BC3696A00CC97C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A35468C1BC3696A00CC97C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A3546A51BC3696B00CC97C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A3546A61BC3696B00CC97C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A3546A81BC3696B00CC97C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zafalon.Aram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A3546A91BC3696B00CC97C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zafalon.Aram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A3546AB1BC3696B00CC97C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zafalon.AramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aram.app/Aram";
+			};
+			name = Debug;
+		};
+		3A3546AC1BC3696B00CC97C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zafalon.AramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aram.app/Aram";
+			};
+			name = Release;
+		};
+		3A3546AE1BC3696B00CC97C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zafalon.AramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A3546AF1BC3696B00CC97C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zafalon.AramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3546771BC3696A00CC97C2 /* Build configuration list for PBXProject "Aram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3546A51BC3696B00CC97C2 /* Debug */,
+				3A3546A61BC3696B00CC97C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3546A71BC3696B00CC97C2 /* Build configuration list for PBXNativeTarget "Aram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3546A81BC3696B00CC97C2 /* Debug */,
+				3A3546A91BC3696B00CC97C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A3546AA1BC3696B00CC97C2 /* Build configuration list for PBXNativeTarget "AramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3546AB1BC3696B00CC97C2 /* Debug */,
+				3A3546AC1BC3696B00CC97C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A3546AD1BC3696B00CC97C2 /* Build configuration list for PBXNativeTarget "AramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3546AE1BC3696B00CC97C2 /* Debug */,
+				3A3546AF1BC3696B00CC97C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A3546861BC3696A00CC97C2 /* Aram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A3546871BC3696A00CC97C2 /* Aram.xcdatamodel */,
+			);
+			currentVersion = 3A3546871BC3696A00CC97C2 /* Aram.xcdatamodel */;
+			path = Aram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A3546741BC3696A00CC97C2 /* Project object */;
+}
