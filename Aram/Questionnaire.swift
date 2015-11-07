@@ -52,27 +52,29 @@ class Questionnaire: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let idf = 1
+        if idf == 1 { //se enunciado igual a objetiva
         
+            let cell :QuestionCellObjetiva = tableView.dequeueReusableCellWithIdentifier("cell") as! QuestionCellObjetiva
+            if namesArray.count != 0{
+                cell.CellEnunciadoObjetiva.text = namesArray[indexPath.row]
+            }
+            return cell
+        }else{
     
         
-        let cell :QuestionCellObjetiva = tableView.dequeueReusableCellWithIdentifier("cell") as! QuestionCellObjetiva
-
-
-//        let cell :QuestionCell = tableView.dequeueReusableCellWithIdentifier("cell") as! QuestionCell
-        
-        if namesArray.count != 0{
-            
-//            TODO: IF DISCURSIVA CHAMAR UM TIPO DE CELULA SE NÃO CHAMA A OUTRA
-            
-//            cell.CellEnunciadoDiscurssiva.text =  namesArray[indexPath.row]
-            cell.CellEnunciadoObjetiva.text = namesArray[indexPath.row]
-
+            let cell :QuestionCell = tableView.dequeueReusableCellWithIdentifier("cell") as! QuestionCell
+            if namesArray.count != 0{
+                cell.CellEnunciadoDiscurssiva.text =  namesArray[indexPath.row]
+            }
+            return cell
+            }
+//         fatalError("Unexpected section \(indexPath.section)")
         }
         
-        return cell
     }
     
 
 
    
-}
+
